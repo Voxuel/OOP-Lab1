@@ -11,9 +11,9 @@ namespace CirclePorgram
         {
             Area = radius * radius * 3.14f;
         }
-        public string GetArea()
+        public float GetArea()
         {
-            return Area.ToString();
+            return Area;
         }
     }
 }

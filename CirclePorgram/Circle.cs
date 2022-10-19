@@ -9,7 +9,7 @@ namespace CirclePorgram
         private float Area;
         public Circle(float radius)
         {
-            Area = radius * radius * 3.14f;
+            this.Area = radius * radius * 3.141f;
         }
         public float GetArea()
         {

@@ -13,6 +13,9 @@ namespace CirclePorgram
             var circle3 = new Circle(5, 10);
             Console.WriteLine(circle3.GetVolume());
             Console.WriteLine(circle1.GetCircumference());
+
+            var tringle1 = new Triangle(10,15);
+            Console.WriteLine(tringle1.GetArea());
         }
     }
 }

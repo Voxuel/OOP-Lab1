@@ -6,21 +6,22 @@ namespace CirclePorgram
 {
     class Circle
     {
-        private float Area;
-        private float Volume;
-        private float Circumference;
-        private float Radius;
-        private float Height;
+        // Create fields that will be used.
+        private float Area,Volume,Circumference,Radius,Height;
         private float Pi = 3.141f;
-        public Circle(float radius)
+
+        // Creates overload constructors depending on the type one would calculate.
+        public Circle(float _radius)
         {
-            this.Radius = radius;
+            this.Radius = _radius;
         }
-        public Circle(float radius, float height)
+        public Circle(float _radius, float _height)
         {
-            this.Radius = radius;
-            this.Height = height;
+            this.Radius = _radius;
+            this.Height = _height;
         }
+
+        // Methods to calculate different things.
         public float GetArea()
         {
             Area = Radius * Radius * 3.141f;

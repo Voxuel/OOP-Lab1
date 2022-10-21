@@ -7,7 +7,6 @@ namespace CirclePorgram
     class Triangle
     {
         private float Base, Volume, Length, Area, Height;
-        private float Pi = 3.141f;
 
         public Triangle(float _base, float _height)
         {
